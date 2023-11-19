@@ -1,0 +1,72 @@
+.banner-container {
+  position: relative;
+}
+
+.top-banner {
+  position: absolute;
+  top: 5%;
+  left: 59.7%;
+  transform: translate(-50%, -50%);
+  width: 68.5%;
+  height: 6%;
+  margin-right: 10px;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgb(226, 226, 227);
+}
+
+.user-profile {
+  position: absolute;
+  justify-content: center;
+  right: 20px;
+  top: 8px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #cc5de3;
+}
+
+.login-user {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-banner {
+    width: 65%;
+    height: 7%;
+  }
+
+  .user-profile {
+    right: 5px;
+    top: 13px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .login-user {
+    top: 25px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner-container {
+    display: none;
+  }
+
+  .top-banner {
+    width: 55%;
+    height: 1%;
+  }
+
+  .login-user {
+    display: none;
+  }
+
+  .user-profile {
+    display: none;
+  }
+}

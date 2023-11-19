@@ -1,0 +1,111 @@
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+  min-height: 400px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.reg-img {
+  flex: 1;
+  background: url("https://images.pexels.com/photos/16094045/pexels-photo-16094045/free-photo-of-a-person-typing-on-a-laptop-computer.jpeg?auto=compress&cs=tinysrgb&w=600")
+    center;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.auth-header {
+  font-size: 30px;
+  line-height: 10px;
+  font-family: "Inter", sans-serif;
+  color: #555;
+}
+
+.log-btn {
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.right {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 5px;
+  outline: none;
+}
+
+.regpage-regbtn {
+  width: 40%;
+  background-color: #a8a6a6;
+  border: none;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+}
+
+.regpage-regbtn:hover {
+  border: none;
+  padding: 5px;
+  background-color: #829f93;
+}
+
+.regpage-logbtn {
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .reg-img {
+    display: none;
+  }
+
+  .card {
+    width: 320px;
+    margin: 20px;
+    overflow: scroll;
+  }
+}

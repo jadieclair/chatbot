@@ -1,0 +1,171 @@
+.container {
+  position: relative;
+}
+
+.chat-icon3 {
+  align-items: center;
+}
+
+.chat-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-text {
+  text-align: center;
+}
+
+.chat-sub-text {
+  font-family: "Inter", sans-serif;
+  color: rgb(116, 116, 116);
+  font-size: 12px;
+}
+
+.search-history-icont1 {
+  width: 22px;
+  display: flex;
+  margin-left: 5px;
+  height: 22px;
+  margin-top: 10px;
+  border: 3px solid #dddcdc;
+  border-radius: 50%;
+}
+
+.ellipsis-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-top: -40px;
+  color: rgb(97, 96, 96);
+  cursor: pointer;
+}
+
+.footer-text-home {
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 52%;
+  top: 590px;
+  color: rgb(116, 116, 116);
+  font-family: "Roboto", sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prompt {
+  position: fixed;
+  margin-top: -30px;
+  margin-left: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.result {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: left;
+  padding: 20px;
+}
+
+.answer-feedback {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.answer-button-1,
+.answer-button-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  padding: 5px;
+  padding-right: 10px;
+  border: 1px solid rgb(226, 226, 227);
+  border-radius: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.answer-button-1:hover {
+  background-color: rgb(226, 226, 227);
+  color: rgb(92, 92, 243);
+  border-color: transparent;
+}
+
+.answer-button-2:hover {
+  background-color: rgb(226, 226, 227);
+  color: rgb(92, 92, 243);
+  border-color: transparent;
+}
+
+.chat-history-container {
+  margin-top: 30px;
+}
+
+.chat-history {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: left;
+  padding: 20px;
+}
+
+.search-chat-history {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-left: -580px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .chat-text {
+    font-size: 12px;
+  }
+
+  .chat-sub-text {
+    font-size: 10px;
+  }
+
+  .footer-text-home {
+    font-size: 12px;
+    margin-left: 50%;
+    top: 540px;
+  }
+
+  .search-chat-history {
+    font-size: 12px;
+    margin-top: -30px;
+    margin-left: -320px;
+  }
+
+  .clear-chat-button {
+    margin-left: -300px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer-text-home {
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+    top: 530px;
+  }
+}

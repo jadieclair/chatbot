@@ -1,0 +1,21 @@
+.button-content {
+  display: flex;
+  align-items: center;
+}
+
+.like-icon {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 320px) {
+  .button-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .like-icon {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}

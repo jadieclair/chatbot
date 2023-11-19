@@ -1,0 +1,49 @@
+.custom-container {
+  width: 52%;
+  height: 45vh;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: -41%;
+  margin-left: 31%;
+  box-shadow: 1px 0px 3px 0 rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+  border: 1px solid rgb(226, 226, 227);
+  border-radius: 12px;
+}
+
+.search-history-title {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: -580px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-container {
+    width: 55%;
+    height: 47vh;
+    margin-top: -68%;
+    margin-left: 29%;
+  }
+
+  .search-history-title {
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: -320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .custom-container {
+    width: 55%;
+    height: 47vh;
+    margin-top: -180%;
+    margin-left: 33%;
+  }
+
+  .search-history-title {
+    display: none;
+  }
+}

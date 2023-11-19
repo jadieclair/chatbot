@@ -1,0 +1,110 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+  min-height: 400px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  flex: 1;
+  background: url("https://images.pexels.com/photos/16094062/pexels-photo-16094062/free-photo-of-a-cell-phone-with-a-glasses-sitting-on-top-of-it.jpeg?auto=compress&cs=tinysrgb&w=600")
+    center;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+
+.auth-header {
+  font-size: 30px;
+  line-height: 10px;
+  font-family: "Inter", sans-serif;
+  color: #555;
+}
+
+.reg-btn {
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.open-acc {
+  font-size: 12px;
+}
+
+.right {
+  flex: 1;
+  padding: 50px;
+  gap: 30px;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 5px;
+  outline: none;
+}
+
+.logpage-logbtn {
+  width: 40%;
+  background-color: #a8a6a6;
+  border: none;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+}
+
+.logpage-logbtn:hover {
+  border: none;
+  padding: 5px;
+  background-color: #829f93;
+}
+
+.logpage-regbtn {
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .left {
+    display: none;
+  }
+
+  .card {
+    width: 320px;
+    margin: 20px;
+    overflow: scroll;
+  }
+}

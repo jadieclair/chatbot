@@ -1,0 +1,39 @@
+.subtext {
+  position: absolute;
+  margin-left: 420px;
+  margin-top: -645px;
+}
+
+.sub-text-1 {
+  font-family: "Onest", serif;
+  font-size: 17px;
+  margin-bottom: -4%;
+  margin-top: 11%;
+}
+
+.sub-text-2 {
+  font-family: "Inter", sans-serif;
+  color: rgb(116, 116, 116);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .subtext {
+    margin-left: 220px;
+    margin-top: -590px;
+  }
+
+  .sub-text-1 {
+    font-size: 12px;
+  }
+
+  .sub-text-2 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .subtext {
+    display: none;
+  }
+}

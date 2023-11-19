@@ -1,0 +1,103 @@
+.felx-container {
+  display: flex;
+  padding: 0;
+  height: 100%;
+  width: 90%;
+  border: 1px solid rgb(226, 226, 227);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.logo-header {
+  display: flex;
+  margin-top: 6%;
+  margin-left: 15px;
+}
+
+.logo {
+  width: 14%;
+  height: 14%;
+  margin-top: -1%;
+  margin-left: 5px;
+}
+
+.side-nav {
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #f3f3f3;
+  width: 20%;
+  padding: 10px;
+}
+
+.nav-header {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: -1%;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+
+.ul-list {
+  display: flex;
+  list-style-type: none;
+  margin-left: -5%;
+  margin-top: 6%;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: lightslategray;
+  transition: background-color 0.5s, color 0.5s;
+  align-items: center;
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.ul-list:hover,
+.ul-list:focus {
+  background-color: rgb(226, 226, 227);
+  padding: 5px;
+}
+
+svg {
+  margin-left: 5px;
+}
+
+.list-name {
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    font-size: 15px;
+    margin-left: 9px;
+  }
+
+  .ul-list {
+    margin-left: -30px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav-header {
+    display: none;
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-left: -1px;
+  }
+
+  .list-name {
+    display: none;
+  }
+
+  svg {
+    margin-left: 3px;
+  }
+}
